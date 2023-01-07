@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ByeCar DNC</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="assets/logo.svg" alt="">
+        <h1>ByeCar</h1>
+    </div>
+    <div class="conteudo">
+        <div class="conteudo-esquerdo">
+            <h1>Ter <strong>uma moto </strong> por assinatura nunca foi tão fácil!</h1>
+            <img src="assets/ft1.png" alt="">
+        </div>
+        <div class="conteudo-direito">
+            <h1>Conheça nossas <strong>motos</strong>!</h1>
+            <div class="carousel">
+                <button onclick="show(-1)">
+                    <img src="./assets/buttone.svg"/>
+                </button>
+                    <ul class="carousel-cards">
+                        <li>
+                            <h2>Scooter Elétrica Voltz EV1</h2>
+                            <img src="assets/moto1.svg" alt="">
+                            <div class="card">
+                                <h1>A partir de</h1>
+                                <span>R$ 619,90</span>
+                                <h3>Plano de 30 meses</h3>
+                            </div>
+        
+                        </li>
+                        <li>
+                             <h2>Honda CB 500X</h2>
+                             <img src="assets/moto2.svg" alt="">
+                             <div class="card">
+                                <h1>A partir de</h1>
+                                <span>R$ 619,90</span>
+                                <h3>Plano de 30 meses</h3>
+                             </div>
+                        </li>
+                    </ul>
+                    <button onclick="show(+1)"><img src="./assets/buttond.svg"/></button>
+            </div>
+            <button class="learn-more"> Saiba mais </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
